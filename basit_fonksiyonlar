@@ -1,3 +1,5 @@
 =COUNT(H5:K5) fonksiyonu sadece sayı içeren kısımda çalışır ve kaç hücre , bölüm olduğunu söyler
 =COUNTA(I16:L16) fonksiyonu sadece text olan hücrelerde çalışır ve kaç hücre , bölüm olduğunu yazdırır.
 =COUNTIF(H2:H5; ">=50") fonksiyonu ele alınan hücrelerde olan ve 50den büyük olan sayıların sayısını söyler
+=D8*$G$9 bu fonksiyonun sonucu 7dir ve aşağı çekersek diğer sayıların da yüzde 20sini alır yazar eğer =D8*G9 kullanırsak sadece o hücreye işlem uygular  G9 = 20,00% D8=35 
+=AVERAGE(D8:D10)  fonksiyonu ortalama alır 
