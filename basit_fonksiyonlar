@@ -1,0 +1,3 @@
+=COUNT(H5:K5) fonksiyonu sadece sayı içeren kısımda çalışır ve kaç hücre , bölüm olduğunu söyler
+=COUNTA(I16:L16) fonksiyonu sadece text olan hücrelerde çalışır ve kaç hücre , bölüm olduğunu yazdırır.
+=COUNTIF(H2:H5; ">=50") fonksiyonu ele alınan hücrelerde olan ve 50den büyük olan sayıların sayısını söyler
