@@ -3,3 +3,10 @@
 =COUNTIF(H2:H5; ">=50") fonksiyonu ele alınan hücrelerde olan ve 50den büyük olan sayıların sayısını söyler
 =D8*$G$9 bu fonksiyonun sonucu 7dir ve aşağı çekersek diğer sayıların da yüzde 20sini alır yazar eğer =D8*G9 kullanırsak sadece o hücreye işlem uygular  G9 = 20,00% D8=35 
 =AVERAGE(D8:D10)  fonksiyonu ortalama alır 
+=UPPER(G7) Hücrenin kelimseinin harflerinin hepsini büyümesini sağlar eğer sürükleme kullanırsak yan sütundakilerinde aynı şekilde büyük harfle yazılmış olur
+=LOWER(B4) Hücrenin kelimesinin harflerinin hepsinin küçülmesini sağlar sürükleme kullanırsak yan sütündakilerde aynı şekilde gözükecektir
+=LEFT(D14,3)  seçilen hücrenin soldan kaç harfini almak istiyorsak onu söyleriz soldan 3 ise kalem hücresinin "kal" şeklinde alır
+=MID(B4,5,7) Seçilen hücrede soldan 5. karakterden başlayıp iki karakteri yazdırma işidir.
+=RIGHT(D20,4) seçilen hücrede sağdan karakteri alır yazdırır.
+=FIND("@" , A9) seçilen hücrede @ işaretine kadar kaç karakter olduğunu gösterir
+=UNIQUE(N15:N24) Bir sütunu seçerek içinde tekrar eden şehir isimlerini bularak yeni bir tablo gösterir ve her birini bir kere yazar
