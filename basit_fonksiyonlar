@@ -10,3 +10,6 @@
 =RIGHT(D20,4) seçilen hücrede sağdan karakteri alır yazdırır.
 =FIND("@" , A9) seçilen hücrede @ işaretine kadar kaç karakter olduğunu gösterir
 =UNIQUE(N15:N24) Bir sütunu seçerek içinde tekrar eden şehir isimlerini bularak yeni bir tablo gösterir ve her birini bir kere yazar
+=CONCAT(N15;N21) fonksiyonu  iki hücredeki textleri birleştirerek yazdırır eğer araya boşluk koymak istersen =CONCAT(N15," " ,N21) kullanılabilir
+=TODAY() fonksiyonu o günün tarihini yazdırır
+
